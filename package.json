@@ -36,10 +36,10 @@
   "description": "## Project Name",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/401-advanced-javascript-jv/19-queue-server.git"
+    "url": "git+https://github.com/401-advanced-javascript-jv/19-server.git"
   },
   "bugs": {
-    "url": "https://github.com/401-advanced-javascript-jv/19-queue-server/issues"
+    "url": "https://github.com/401-advanced-javascript-jv/19-server/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-jv/19-queue-server#readme"
+  "homepage": "https://github.com/401-advanced-javascript-jv/19-server#readme"
 }
