@@ -32,5 +32,14 @@
   },
   "keywords": [],
   "author": "Jesse Van Volkinburg <vanvoljg@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "## Project Name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-jv/19-queue-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-jv/19-queue-server/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-jv/19-queue-server#readme"
 }
