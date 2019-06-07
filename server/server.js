@@ -4,10 +4,12 @@ const QServer = require('@nmq/q/server');
 QServer.start();
 
 const databaseEvents = {
-  create: 'create',
-  read: 'read',
-  update: 'update',
+  post: 'post',
+  get: 'get',
+  put: 'put',
   delete: 'delete',
+  patch: 'patch',
+  error: 'error',
 };
 
 const fileEvents = {
