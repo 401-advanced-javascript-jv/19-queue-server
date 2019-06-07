@@ -25,7 +25,7 @@ const alterFile = (file) => {
       return pWriteFile(file, bModifyContents(data));
     })
     .then(() => {
-      QClient.publish('file', 'save', {file,string:'Saved'});
+      QClient.publish('file', 'save', {file,message:'Saved'});
     })
     .catch((error) => {
       throw error;

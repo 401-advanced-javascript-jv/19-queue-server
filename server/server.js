@@ -24,4 +24,3 @@ const file = new QServer('file');
 for (let event of Object.keys(fileEvents)) {
   file.monitorEvent(fileEvents[event]);
 }
-
