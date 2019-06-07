@@ -1,11 +1,12 @@
 {
   "name": "lab",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./server/server.js",
   "directories": {
     "doc": "docs"
   },
   "dependencies": {
+    "@nmq/q": "^1.0.3",
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "jest": "^24.8.0"
@@ -23,7 +24,7 @@
     "endOfLine": "lf"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./server/server.js",
     "watch": "nodemon index.js",
     "lint": "eslint '**/*.js'",
     "test": "jest --verbose --coverage",

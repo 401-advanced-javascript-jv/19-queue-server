@@ -3,6 +3,8 @@
 require('dotenv').config();
 const fs = require('fs').promises;
 
+const QClient = require('@nmq/q/client');
+
 const pReadFile = (file) => {
   return fs.readFile(file);
 };
@@ -20,10 +22,10 @@ const pWriteFile = (filename, buffer) => {
 const alterFile = (file) => {
   pReadFile(file)
     .then((data) => {
-      return pWriteFile(bModifyContents(data));
+      return pWriteFile(file, bModifyContents(data));
     })
     .then(() => {
-      console.log(`${file} written to disk`);
+      QClient.publish('file', 'save', {file,string:'Saved'});
     })
     .catch((error) => {
       throw error;
