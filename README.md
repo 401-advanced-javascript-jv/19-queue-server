@@ -11,6 +11,7 @@
 ### Setup
 #### `.env` requirements
 - `Q_SERVER` URL for the queue server - used for the demo app
+  - Example: `Q_SERVER=http://localhost:3333`
 
 #### Running the app
 * `npm start` to start the Q Server
