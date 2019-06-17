@@ -10,9 +10,13 @@
 
 ### Setup
 #### `.env` requirements
-- `QUEUE_SERVER` URL for the queue server - used for the demo app
+- `Q_SERVER` URL for the queue server - used for the demo app
 
 #### Running the app
+* `npm start` to start the Q Server
+
+#### Running the file alteration demo
+* With the server running as shown above
 * `node app/app.js <filename>` to alter a file to make contents uppercase.
   
 #### Tests
