@@ -1,46 +1,26 @@
-# LAB - 
+# LAB - 19
 
-## Project Name
+## Message Queue - Q Server
 
 ### Author: Jesse Van Volkinburg
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [submission PR](https://github.com/401-advanced-javascript-jv/19-server/pull/1)
+* [travis](https://travis-ci.com/401-advanced-javascript-jv/19-server)
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+- `Q_SERVER` URL for the queue server - used for the demo app
+  - Example: `Q_SERVER=http://localhost:3333`
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `npm start` to start the Q Server
+
+#### Running the file alteration demo
+* With the server running as shown above
+* `node app/app.js <filename>` to alter a file to make contents uppercase.
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* `npm test` to run tests
+* All tests need to be written, still
 
-#### UML
-Link to an image of the UML for your application and response to events

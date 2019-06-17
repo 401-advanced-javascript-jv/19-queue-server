@@ -1,11 +1,12 @@
 {
-  "name": "lab",
+  "name": "19-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./server/server.js",
   "directories": {
     "doc": "docs"
   },
   "dependencies": {
+    "@nmq/q": "^1.0.3",
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "jest": "^24.8.0"
@@ -23,7 +24,7 @@
     "endOfLine": "lf"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./server/server.js",
     "watch": "nodemon index.js",
     "lint": "eslint '**/*.js'",
     "test": "jest --verbose --coverage",
@@ -32,5 +33,14 @@
   },
   "keywords": [],
   "author": "Jesse Van Volkinburg <vanvoljg@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "## Project Name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-jv/19-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-jv/19-server/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-jv/19-server#readme"
 }
